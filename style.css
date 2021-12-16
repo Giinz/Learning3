@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    
+    font-family:"Roboto", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #eee;
+}
+#Section1-Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1rem;
+    padding: 1.25rem 0.75rem;
+    max-width: 71.25rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.Section1-Toggle{
+    display: none;
+}
+.Section1-Toggle>i{
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.Section1-Icon{
+    padding: 0.3125rem 0;
+    margin-right: 1rem;
+    max-width: 89px;
+    width: 20%;
+}
+.Section1-Nav>a{
+    color: #222;
+    text-decoration: none;
+    padding: 0.75rem 0.75rem 0.625rem;
+}
+.Section1-Twitter{
+    margin-left: auto;
+}
+.Section1-Icon img{
+    width: 89px;
+    height: 18px;
+}
+.Section1-Twitter img{
+    width: 16px;
+    height: 16px;
+}
+#Section2{
+    line-height: 1rem;
+    padding: 0 0 3rem;
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+.Section2-Container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://inovatik.com/images/header-text-container-background.jpg) center center no-repeat;
+    padding: 6rem 1.5rem 6.5rem 1.5rem;
+    background-size: cover;
+    align-items: center;
+    margin: 0 0.75rem;
+    min-height: 346px;
+    justify-content: center;
+    text-align: center;
+}
+.Section2-Container>h1{
+    font-size: 2.75rem;
+    line-height: 3.375rem;
+    font-weight: 600;
+    margin:0 0 0.5rem;
+    color: #fff;
+    background: none;
+}
+.Section2-Container>p{
+    background: none;
+    font-size: 1.125rem;
+    color: #fff;
+}
+#Section3{
+    display: block;
+    text-align: center;
+    padding: 0 0 2rem;
+}
+#Section3>a{
+    display: inline-block;
+    background: #ddd;
+    margin: 0 0.25rem 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    line-height: 0;
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+}
+#Section3>a:hover{
+    background: #222;
+    color: #ddd;
+}
+.Section4-Container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 71.25rem;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    justify-content: space-between;
+}
+.Section4-box{
+    max-width: 18.75rem;
+    height: fit-content;
+    color: #222;
+    transition: 0.3s;
+}
+.Section4-box>a{
+    text-decoration: none;
+    
+}
+.Section4-box-img>img{
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+.Section4-box-img{
+    max-width: 100%;
+    background: #fff;
+}
+.Section4-box-content{
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 7rem;
+}
+.Section4-box-content>h5{
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+    color: #222;
+    line-height: 1.625rem;
+    font-weight: 600;
+}
+.Section4-box-content>p{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.Section4-box:hover{
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+}
+#Section5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    align-items: center;
+    padding: 9rem 0 6rem;
+}
+#Section5 h2{
+    width: 40rem;
+    font-stretch: expanded;
+    font-size: 2.25rem;
+    color: #222;
+    margin: 0 14.875rem 4rem;
+}
+.Section5-Content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 71.25rem;
+    margin: 0 0.75rem;
+
+}
+.Section5-box{
+    width: 218px;
+    height: auto;
+    margin: 0 1.375rem 3.25rem 0;
+}
+.Section5-box img{
+    width: 86px;
+    height: auto;
+    margin: 0 4.125rem 1,75rem;
+}    
+.Section5-box h5{
+    margin: 1.75rem 0 0.5rem;
+    font-size: 1.23rem;
+    line-height: 1.625rem;
+    color: #222;
+}
+.Section5-box p{
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.625rem;
+}
+#Section6{
+    align-items: center;
+    background-color: #fff;
+}
+.Section6-container{
+    max-width: 71.25rem;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    word-wrap: unset;
+    padding: 0 0.75rem;
+}
+.Section6-container>:first-child{
+    background: linear-gradient(to right, #fff, #eee);
+    padding: 0 0.75rem;
+}
+.Section6-box{
+    background: #eee;
+    padding: 4rem 2rem 1rem 2.25rem;
+    max-width: 50%;
+}
+.Section6-box img{
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.Section6-box h2{
+    height: inherit;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+.Section6-box p{
+    margin-bottom: 1rem;
+    line-height: 1.625rem;
+    color: #222;
+}
+.Section6-box>p>a{
+    color: #3A65F2;
+}
+.Section6-box>p>a:hover{
+    color: #222;
+}
+#Section7{
+    text-align: center;
+    background: #fff;   
+}
+.Section7-container{
+    margin: 0 auto;
+    max-width: 71.25rem;
+    padding: 9rem 0;
+}
+.Section7-container a{
+    display: inline-block;
+    margin: 0 0.3125rem 1.25rem;
+}
+.Section7-container h5{
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem;
+    color: #222;
+}
+#Section8{
+    text-align: center;
+}
+.Section8-footer{
+    max-width: 71.25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.5rem 0.75rem 1.5rem;
+}
+.Section8-footer h4{
+    max-width: 100%;
+    padding: 0 0 4.5rem;
+    font-size: 1.5rem;
+    color: #222;
+    line-height: 2rem;
+}
+.Section8-footer a{
+    font-size: 1.5rem;
+    color:#3A65F2;
+    text-decoration: none;
+}
+.Section8-footer p{
+    font-size: 0.875rem;
+    color: #777;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 52px;
+    height: 52px;
+    bottom: 20px;
+    right: 30px;
+    background: #323137;
+    color: #000;
+    font: 1rem;
+    padding: 1px 6px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#button img{
+    width: 18px;
+    height: 18px;
+}
+#button:hover{
+    background: #000;
+}
+@media (min-width: 990px),(max-width: 1149px){
+    .Section5-Content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section7-container, #Section2,.Section4-Container,.Section6-container,#Section1-Header,.Section8-footer{
+        max-width: 60rem;
+    }
+    .Section6-container{
+        padding: 0;
+    }
+    .Section6-box{
+        padding: 1rem 2rem 0 2.25rem;
+    }
+}
+@media (max-width: 989px){
+    .Section7-container, #Section2,.Section4-Container,.Section6-container,#Section1-Header,.Section8-footer{
+        max-width: 45rem;
+    }
+    #Section1{
+        display: block;
+        height: 4.5rem;
+        background-color: #eee;
+    }
+    #Section1-Header{
+        position: fixed;
+        background: #eee;
+        right: 0;
+        left: 0;
+        margin-top: -6rem;
+    }
+    .Section1-Toggle{
+        display: block;
+        background: url(https://img.icons8.com/material-rounded/48/000000/menu--v1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2rem;
+        height: 2rem;
+    }
+    .Section1-Toggle>input{
+        position: relative;
+        cursor: pointer;
+        opacity: 0;
+        width: 2rem;
+        height: 2rem;
+    }
+    .Section1-MobileMenu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        left: 0;
+        align-items: flex-start;
+        background-color: #eee;
+        padding: 1rem 5rem 0 0;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s;
+        transform: translateX(100%);
+    }
+    .Section1-Toggle input:checked~div{
+        transform: translateX(0%);
+        transition: transform 0.5s;
+    }
+    .Section1-Toggle a{
+        font-weight: 500;
+        color: #222;
+    text-decoration: none;
+    padding: 0.75rem 0.75rem 0.625rem;
+    }
+    .Section1-Toggle a img{
+        width: 16px;
+        height: 16px;
+    }
+    .Section1-Nav,.Section1-Twitter{
+        display: none;
+    }
+    #Section2{
+        margin-top: 6rem;
+    }
+    .Section4-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Section4-box{
+        max-width: 25.625rem;
+    }
+    .Section5-Content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section6-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .Section6-container>:first-child{
+        padding:0;
+    }
+    .Section6-box{
+        max-width: 45rem;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding:3rem 2rem 3rem;
+    }
+    .Section8-footer>h4{
+        padding: 0 0 4.5rem;
+    }
+}
