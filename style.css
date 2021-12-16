@@ -172,12 +172,12 @@ body{
 }
 .Section5-Content{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     max-width: 71.25rem;
     margin: 0 0.75rem;
-
 }
 .Section5-box{
     width: 218px;
@@ -314,7 +314,7 @@ body{
 #button:hover{
     background: #000;
 }
-@media (min-width: 990px),(max-width: 1149px){
+@media (min-width: 990px) and (max-width: 1149px){
     .Section5-Content{
         display: flex;
         flex-direction: column;
