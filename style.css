@@ -334,16 +334,17 @@ body{
         max-width: 45rem;
     }
     #Section1{
-        display: block;
-        height: 4.5rem;
-        background-color: #eee;
+        width: 100%;
+        /* display: flex;
+        align-items: center; */
+        position: fixed;
+        margin-top: -6rem;
+        background: #eee;
     }
     #Section1-Header{
-        position: fixed;
+        width: 100%;
+        position: relative;
         background: #eee;
-        right: 0;
-        left: 0;
-        margin-top: -6rem;
     }
     .Section1-Toggle{
         display: block;
